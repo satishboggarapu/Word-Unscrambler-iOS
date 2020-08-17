@@ -7,5 +7,5 @@ public struct Image {
         return UIImage(named: name, in: nil, compatibleWith: nil)
     }
 
-    public static let UNSCRAMBLER_256 = Image.image("unscrambler_256px")
+    public static let UNSCRAMBLER_256 = Image.image("word_unscrambler_app_icon_1024")
 }

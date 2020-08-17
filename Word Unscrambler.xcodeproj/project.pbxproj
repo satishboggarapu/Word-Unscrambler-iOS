@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		100411CC22700BDF001D8C94 /* valid_words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 100411CB22700BDF001D8C94 /* valid_words.txt */; };
 		100806B42266BF25008EA9B6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100806B32266BF25008EA9B6 /* AdSupport.framework */; };
-		10D4F9362268C9010062C86A /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D4F9352268C9010062C86A /* a.png */; };
+		105286A024EA0B7C000FFAD9 /* word_unscrambler_app_icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1052869F24EA0B7C000FFAD9 /* word_unscrambler_app_icon_1024.png */; };
 		10DD002C1D8A20070076D3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DD002B1D8A20070076D3BD /* Assets.xcassets */; };
 		10DD003A1D8A20070076D3BD /* Word_UnscramblerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD00391D8A20070076D3BD /* Word_UnscramblerTests.swift */; };
 		10DD00451D8A20070076D3BD /* Word_UnscramblerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD00441D8A20070076D3BD /* Word_UnscramblerUITests.swift */; };
@@ -101,7 +101,7 @@
 		02CCE1A0D854DAC0F2540E68 /* Pods-Word UnscramblerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Word UnscramblerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Word UnscramblerTests/Pods-Word UnscramblerTests.release.xcconfig"; sourceTree = "<group>"; };
 		100411CB22700BDF001D8C94 /* valid_words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = valid_words.txt; sourceTree = "<group>"; };
 		100806B32266BF25008EA9B6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		10D4F9352268C9010062C86A /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		1052869F24EA0B7C000FFAD9 /* word_unscrambler_app_icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_unscrambler_app_icon_1024.png; sourceTree = "<group>"; };
 		10DD001E1D8A20070076D3BD /* Word Unscrambler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Unscrambler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DD002B1D8A20070076D3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10DD00351D8A20070076D3BD /* Word UnscramblerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word UnscramblerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -319,7 +319,7 @@
 		192E4557300FC19C8844906C /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				10D4F9352268C9010062C86A /* a.png */,
+				1052869F24EA0B7C000FFAD9 /* word_unscrambler_app_icon_1024.png */,
 				192E4E45E77C09F3C9091854 /* Main.storyboard */,
 				192E4F601EFFF5145723B146 /* AppDelegate.swift */,
 				192E4460BBE818701491DAE8 /* LaunchScreen.storyboard */,
@@ -582,11 +582,11 @@
 				192E4F6D704A3635A84BF927 /* AlegreyaSans-Medium.ttf in Resources */,
 				192E433E5A940D32BA26D171 /* invalid_words.txt in Resources */,
 				192E4D65362EC24B4DD090E6 /* words.txt in Resources */,
-				10D4F9362268C9010062C86A /* a.png in Resources */,
 				192E4A942DD90BC453B0FFCA /* loading_cubes.json in Resources */,
 				192E45659CFE347E05323E94 /* loading_seesaw.json in Resources */,
 				100411CC22700BDF001D8C94 /* valid_words.txt in Resources */,
 				192E475D2EDD171E1950A5BD /* words_old.txt in Resources */,
+				105286A024EA0B7C000FFAD9 /* word_unscrambler_app_icon_1024.png in Resources */,
 				192E47236495A072650DA9FE /* Main.storyboard in Resources */,
 				192E44FF495A1CE24135BEF1 /* GoogleService-Info.plist in Resources */,
 				192E45DF8C7BA25C36B3B35A /* LaunchScreen.storyboard in Resources */,
