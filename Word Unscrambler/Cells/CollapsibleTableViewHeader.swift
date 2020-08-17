@@ -14,11 +14,13 @@ class CollapsibleTableViewHeader: UITableViewHeaderFooterView {
     // MARK: Attributes
     var delegate: CollapsibleTableViewHeaderDelegate?
     var section: Int = 0
+    private var customConstraints: Constraints!
 
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)
 
         contentView.backgroundColor = .white
+        customConstraints = Constraints.getInstance()
         setupView()
         addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(CollapsibleTableViewHeader.tapHeader(_:))))
     }
@@ -52,7 +54,7 @@ class CollapsibleTableViewHeader: UITableViewHeaderFooterView {
 
     override func setupView() {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        titleLabel.font = Font.AlegreyaSans.medium(with: 20)
+        titleLabel.font = Font.AlegreyaSans.medium(with: customConstraints.mainVCTableViewHeaderTitleLabelFontSize)
         titleLabel.textColor = .black
         titleLabel.textAlignment = .center
         contentView.addSubview(titleLabel)

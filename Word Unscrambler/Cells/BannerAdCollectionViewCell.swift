@@ -6,9 +6,9 @@ class BannerAdCollectionViewCell: UICollectionViewCell {
 
     // MARK: UIElements
     private var cardView: UIView!
-    internal var bannerAd: GADBannerView!
     private var infoBar: UIView!
-    private var title: UILabel!
+    internal var title: UILabel!
+    internal var bannerAd: GADBannerView!
 
     // MARK: Attributes
     private var firebaseEvents: FirebaseEvents!
@@ -69,7 +69,6 @@ class BannerAdCollectionViewCell: UICollectionViewCell {
         title.text = "Sponsored"
         title.textColor = .white
         title.textAlignment = .center
-        title.font = Font.AlegreyaSans.medium(with: 22)
         infoBar.addSubview(title)
     }
 }

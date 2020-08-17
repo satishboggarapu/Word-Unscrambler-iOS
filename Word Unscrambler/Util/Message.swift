@@ -4,7 +4,7 @@ class Message {
     public static let UNSCRAMBLE = "Unscrambler"
     public static let TEXT_FIELD_PLACE_HOLDER = "Enter a word to unscramble"
     public static let NO_RESULTS = "No words found containing \ngiven letters"
-    public static let STARED = "Stared Words"
+    public static let STARED = "Starred Words"
     public static let ABOUT = "About"
 
     // Filter

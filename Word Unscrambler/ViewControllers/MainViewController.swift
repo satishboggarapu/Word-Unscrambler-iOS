@@ -13,7 +13,7 @@ class MainViewController: UIViewController {
     private var textFieldLine: UIView!
     private var tableView: UITableView!
     private var noResultsLabel: UILabel!
-    private var infoLabel: UILabel!
+    private var resultsLabel: UILabel!
     private var dividerView: UIView!
     private var adBannerView: GADBannerView!
 //    private var filterButton: UIButton!
@@ -22,6 +22,7 @@ class MainViewController: UIViewController {
     private var firebaseEvents: FirebaseEvents!
     private var unscrambler: UnScrambler!
     private var staredWordsController: StaredWordsController!
+    private var constraints: Constraints!
     private var data: [TableViewSection] = [TableViewSection]()
     private let rowHeight: CGFloat = 40.0
     private let headerHeight: CGFloat = 44.0
@@ -37,6 +38,7 @@ class MainViewController: UIViewController {
         unscrambler = UnScrambler.getInstance()
         staredWordsController = StaredWordsController.getInstance()
         firebaseEvents = FirebaseEvents()
+        constraints = Constraints.getInstance()
 
         setupView()
         setupNavigationBar()
@@ -102,7 +104,7 @@ class MainViewController: UIViewController {
         data = unscrambler.unscrambleWord(textField.text!)
         tableView.reloadData()
         toggleNoResultsLabel()
-        infoLabel.text = getInfoLabel(textField.text!)
+        resultsLabel.text = getInfoLabel(textField.text!)
         firebaseEvents.logUnscramble()
     }
 
@@ -331,9 +333,10 @@ extension MainViewController {
         // Title
         let titleLabel = UILabel()
         titleLabel.text = Message.UNSCRAMBLE
-        titleLabel.font = Font.AlegreyaSans.bold(with: 32)
+        titleLabel.font = Font.AlegreyaSans.bold(with: constraints.navigationBarTitleFontSize)
         titleLabel.textColor = .white
         titleLabel.textAlignment = .center
+        titleLabel.adjustsFontSizeToFitWidth = true
         navigationItem.titleView = titleLabel
 
         // Info Button
@@ -349,7 +352,7 @@ extension MainViewController {
         favoriteButton.addTarget(self, action: #selector(favoriteButtonAction), for: .touchUpInside)
 
         let space = UIBarButtonItem(barButtonSystemItem: .fixedSpace, target: nil, action: nil)
-        space.width = 16
+        space.width = constraints.navigationBarSpaceWidth
 
         // Right bar buttons
         navigationItem.rightBarButtonItems = [UIBarButtonItem(customView: infoButton), space, UIBarButtonItem(customView: favoriteButton)]
@@ -388,7 +391,7 @@ extension MainViewController {
             maker.height.equalTo(2)
         }
 
-        infoLabel.snp.makeConstraints { maker in
+        resultsLabel.snp.makeConstraints { maker in
             maker.left.equalToSuperview().offset(20)
             maker.right.equalToSuperview().inset(12)
             maker.top.equalTo(textFieldView.snp.bottom).offset(12)
@@ -397,13 +400,13 @@ extension MainViewController {
 
         dividerView.snp.makeConstraints { maker in
             maker.left.right.equalToSuperview()
-            maker.top.equalTo(infoLabel.snp.bottom).offset(6)
+            maker.top.equalTo(resultsLabel.snp.bottom).offset(6)
             maker.height.equalTo(1)
         }
 
         adBannerView.snp.makeConstraints { maker in
             maker.left.right.bottom.equalToSuperview()
-            maker.height.equalTo(64)
+            maker.height.equalTo(constraints.bannerAdHeight)
         }
 
         tableView.snp.makeConstraints { maker in
@@ -438,7 +441,7 @@ extension MainViewController {
         textField.delegate = self
         textField.attributedPlaceholder = NSAttributedString(string: Message.TEXT_FIELD_PLACE_HOLDER,
                 attributes: [NSAttributedString.Key.foregroundColor: UIColor.placeHolder])
-        textField.font = Font.AlegreyaSans.medium(with: 24)
+        textField.font = Font.AlegreyaSans.medium(with: constraints.mainVCSearchTextFieldFontSize)
         textField.textColor = .app
         textField.tintColor = .app
         textField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
@@ -492,16 +495,16 @@ extension MainViewController {
         noResultsLabel.text = Message.NO_RESULTS
         noResultsLabel.textColor = .app
         noResultsLabel.textAlignment = .center
-        noResultsLabel.font = Font.AlegreyaSans.bold(with: 24)
+        noResultsLabel.font = Font.AlegreyaSans.bold(with: constraints.mainVCSearchTextFieldFontSize)
         noResultsLabel.numberOfLines = 2
         noResultsLabel.isHidden = true
         view.addSubview(noResultsLabel)
 
-        infoLabel = UILabel()
-        infoLabel.textColor = .app
-        infoLabel.textAlignment = .left
-        infoLabel.font = Font.AlegreyaSans.medium(with: 20 )
-        view.addSubview(infoLabel)
+        resultsLabel = UILabel()
+        resultsLabel.textColor = .app
+        resultsLabel.textAlignment = .left
+        resultsLabel.font = Font.AlegreyaSans.medium(with: constraints.mainVCResultsLabelFontSize)
+        view.addSubview(resultsLabel)
 
         dividerView = UIView()
         dividerView.backgroundColor = .divider2

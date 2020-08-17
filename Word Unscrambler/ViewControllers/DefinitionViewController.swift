@@ -29,11 +29,14 @@ class DefinitionViewController: UIViewController {
     private var definitionCacheController: DefinitionCacheController!
     private var staredWordsController: StaredWordsController!
     private var firebaseEvents: FirebaseEvents!
+    private var constraints: Constraints!
     internal var onDoneBlock: (() -> Void)?
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        constraints = Constraints.getInstance()
 
         setupView()
         addConstraints()
@@ -124,7 +127,7 @@ class DefinitionViewController: UIViewController {
         label.text = text
         label.textColor = .app
         label.textAlignment = .left
-        label.font = Font.AlegreyaSans.medium(with: 20)
+        label.font = Font.AlegreyaSans.medium(with: constraints.definitionVCPhoneticLabelFontSize)
         label.numberOfLines = 0
         label.lineBreakMode = .byWordWrapping
 
@@ -141,7 +144,7 @@ class DefinitionViewController: UIViewController {
         height += 8 + tableView.contentSize.height + 4
         height += bottomLayoutMargin
 
-        let maxHeight = view.frame.height * 0.6
+        let maxHeight = view.frame.height * 0.7
         return min(height, maxHeight)
     }
 
@@ -202,7 +205,7 @@ extension DefinitionViewController: UITableViewDelegate, UITableViewDataSource {
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = DefinitionTableViewCell(style: .default, reuseIdentifier: "cell")
-
+        cell.definitionLabel.font = Font.AlegreyaSans.medium(with: constraints.definitionVCPhoneticLabelFontSize)
         cell.selectionStyle = .none
 
         let paragraphStyle = NSMutableParagraphStyle()
@@ -237,7 +240,7 @@ extension DefinitionViewController {
         titleLabel = UILabel()
         titleLabel.textColor = .app
         titleLabel.textAlignment = .left
-        titleLabel.font = Font.AlegreyaSans.bold(with: 28)
+        titleLabel.font = Font.AlegreyaSans.bold(with: constraints.definitionVCTitleLabelFontSize)
         alertView.addSubview(titleLabel)
 
         internetButton = UIButton()
@@ -262,7 +265,7 @@ extension DefinitionViewController {
         phoneticLabel = UILabel()
         phoneticLabel.textColor = .app
         phoneticLabel.textAlignment = .left
-        phoneticLabel.font = Font.AlegreyaSans.regular(with: 20)
+        phoneticLabel.font = Font.AlegreyaSans.regular(with: constraints.definitionVCPhoneticLabelFontSize)
         alertView.addSubview(phoneticLabel)
 
         tableView = UITableView()

@@ -44,7 +44,6 @@ class DefinitionTableViewCell: UITableViewCell {
 
         definitionLabel.textColor = .app
         definitionLabel.textAlignment = .left
-        definitionLabel.font = Font.AlegreyaSans.medium(with: 20)
         definitionLabel.numberOfLines = 0
         definitionLabel.lineBreakMode = .byWordWrapping
         contentView.addSubview(definitionLabel)

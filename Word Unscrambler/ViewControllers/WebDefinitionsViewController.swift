@@ -11,6 +11,7 @@ class WebDefinitionsViewController: UIViewController {
     // MARK: Attributes
     public var word: String = "Word"
     private var firebaseEvents: FirebaseEvents!
+    private var constraints: Constraints!
     private var elements = [WebDefinitions?]()
 
     override func viewDidLoad() {
@@ -18,6 +19,7 @@ class WebDefinitionsViewController: UIViewController {
 
         view.backgroundColor = .white
         firebaseEvents = FirebaseEvents()
+        constraints = Constraints.getInstance()
 
         for i in stride(from: 0, to: WebDefinitions.values.count, by: 1) {
             elements.append(WebDefinitions.values[i])
@@ -71,12 +73,14 @@ extension WebDefinitionsViewController: UICollectionViewDelegate, UICollectionVi
 
         if element == nil {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "adCell", for: indexPath) as? BannerAdCollectionViewCell ?? BannerAdCollectionViewCell()
+            cell.title.font = Font.AlegreyaSans.medium(with: constraints.webDefinitionsVCTitleLabelFontSize)
             cell.bannerAd.rootViewController = self
             cell.bannerAd.load(GADRequest())
             return cell
         }
 
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? WebDefinitionCollectionViewCell ?? WebDefinitionCollectionViewCell()
+        cell.title.font = Font.AlegreyaSans.medium(with: constraints.webDefinitionsVCTitleLabelFontSize)
         cell.refreshView(webDefinition: element!, word: word)
         return cell
     }
@@ -112,7 +116,7 @@ extension WebDefinitionsViewController {
         // Title
         let titleLabel = UILabel()
         titleLabel.text = word
-        titleLabel.font = Font.AlegreyaSans.bold(with: 32)
+        titleLabel.font = Font.AlegreyaSans.bold(with: constraints.navigationBarTitleFontSize)
         titleLabel.textColor = .white
         titleLabel.textAlignment = .center
         navigationItem.titleView = titleLabel

@@ -12,10 +12,14 @@ class InfoViewController: UIViewController {
     private var rateButton: UIButton!
     private var feedbackButton: UIButton!
 
+    // MARK: Attributes
+    private var constraints: Constraints!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .white
+        constraints = Constraints.getInstance()
 
         setupNavigationBar()
         setupView()
@@ -63,7 +67,7 @@ extension InfoViewController {
         // Title
         let titleLabel = UILabel()
         titleLabel.text = Message.ABOUT
-        titleLabel.font = Font.AlegreyaSans.bold(with: 32)
+        titleLabel.font = Font.AlegreyaSans.bold(with: constraints.navigationBarTitleFontSize)
         titleLabel.textColor = .white
         titleLabel.textAlignment = .center
         navigationItem.titleView = titleLabel
@@ -150,21 +154,21 @@ extension InfoViewController {
         shareButton.snp.makeConstraints { maker in
             maker.left.equalToSuperview().offset(36)
             maker.right.equalToSuperview().inset(36)
-            maker.top.equalTo(versionLabel.snp.bottom).offset(72)
+            maker.top.equalTo(versionLabel.snp.bottom).offset(constraints.infoVCShareButtonTopMargin)
             maker.height.equalTo(48)
         }
 
         rateButton.snp.makeConstraints { maker in
             maker.left.equalToSuperview().offset(36)
             maker.right.equalToSuperview().inset(36)
-            maker.top.equalTo(shareButton.snp.bottom).offset(36)
+            maker.top.equalTo(shareButton.snp.bottom).offset(constraints.infoVCButtonMargin)
             maker.height.equalTo(48)
         }
 
         feedbackButton.snp.makeConstraints { maker in
             maker.left.equalToSuperview().offset(36)
             maker.right.equalToSuperview().inset(36)
-            maker.top.equalTo(rateButton.snp.bottom).offset(36)
+            maker.top.equalTo(rateButton.snp.bottom).offset(constraints.infoVCButtonMargin)
             maker.height.equalTo(48)
         }
     }

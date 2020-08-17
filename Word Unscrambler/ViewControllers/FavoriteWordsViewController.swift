@@ -13,6 +13,7 @@ class FavoriteWordsViewController: UIViewController {
     private let rowHeight: CGFloat = 40.0
     private var words = [Word]()
     private var firebaseEvents: FirebaseEvents!
+    private var constraints: Constraints!
 
 
     override func viewDidLoad() {
@@ -22,6 +23,7 @@ class FavoriteWordsViewController: UIViewController {
         staredWordsController = StaredWordsController.getInstance()
         words = staredWordsController.getListOfWordObjects()
         firebaseEvents = FirebaseEvents()
+        constraints = Constraints.getInstance()
 
         setupView()
         setupNavigationBar()
@@ -173,7 +175,7 @@ extension FavoriteWordsViewController {
         // Title
         let titleLabel = UILabel()
         titleLabel.text = Message.STARED
-        titleLabel.font = Font.AlegreyaSans.bold(with: 32)
+        titleLabel.font = Font.AlegreyaSans.bold(with: constraints.navigationBarTitleFontSize)
         titleLabel.textColor = .white
         titleLabel.textAlignment = .center
         navigationItem.titleView = titleLabel
@@ -208,7 +210,7 @@ extension FavoriteWordsViewController {
     override func addConstraints() {
         adBannerView.snp.makeConstraints { maker in
             maker.left.right.bottom.equalToSuperview()
-            maker.height.equalTo(64)
+            maker.height.equalTo(constraints.bannerAdHeight)
         }
 
         tableView.snp.makeConstraints { maker in

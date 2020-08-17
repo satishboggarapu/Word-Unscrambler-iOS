@@ -10,7 +10,7 @@ public class UnScrambler {
     /// Set of words with definitions in Firebase
     public private(set) var wordsWithDefinitions = Set<String>()
     /// Set of words without definitions in Firebase
-    public private(set) var wordsWithoutDefinitions = Set<String>()
+//    public private(set) var wordsWithoutDefinitions = Set<String>()
     /// Dictionary with each letter in the alphabet mapped to its appropriate scrabble score
     public private(set) var scrabbleCharacterPointsArray = [Character: Int]()
     /// Dictionary of strings mapped to a list of valid words with the set of letters
@@ -44,8 +44,8 @@ public class UnScrambler {
             let wordsWithDefinitionsFileContents = try String(contentsOf: wordsWithDefinitionsUrl)
             self.wordsWithDefinitions = Set(wordsWithDefinitionsFileContents.components(separatedBy: "\n"))
 
-            let wordsWithoutDefinitionsFileContents = try String(contentsOf: wordsWithoutDefinitionsUrl)
-            self.wordsWithoutDefinitions = Set(wordsWithoutDefinitionsFileContents.components(separatedBy: "\n"))
+//            let wordsWithoutDefinitionsFileContents = try String(contentsOf: wordsWithoutDefinitionsUrl)
+//            self.wordsWithoutDefinitions = Set(wordsWithoutDefinitionsFileContents.components(separatedBy: "\n"))
         } catch {
             // TODO Log event
             print("Failed to load files")

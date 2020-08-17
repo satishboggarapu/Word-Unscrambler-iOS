@@ -8,7 +8,6 @@ class WebDefinitionCollectionViewCell: UICollectionViewCell {
     private var cardView: UIView!
     private var infoBar: UIView!
     public var title: UILabel!
-//    public var image: UIImageView!
     public var webView: WKWebView!
 
     override init(frame: CGRect) {
@@ -38,16 +37,7 @@ class WebDefinitionCollectionViewCell: UICollectionViewCell {
 
         title.snp.makeConstraints { maker in
             maker.top.bottom.left.right.equalToSuperview()
-//            maker.centerX.equalTo(infoBar.snp.centerX).offset(18)
-//            maker.width.equalTo(title.intrinsicContentSize.width)
         }
-
-//        image.snp.makeConstraints { maker in
-//            maker.top.equalToSuperview().offset(4)
-//            maker.bottom.equalToSuperview().inset(4)
-//            maker.right.equalTo(title.snp.left).offset(-4)
-//            maker.width.equalTo(32)
-//        }
 
         webView.snp.makeConstraints { maker in
             maker.left.equalToSuperview().offset(1)
@@ -72,14 +62,7 @@ class WebDefinitionCollectionViewCell: UICollectionViewCell {
         title = UILabel()
         title.textColor = .white
         title.textAlignment = .center
-        title.font = Font.AlegreyaSans.medium(with: 22)
         infoBar.addSubview(title)
-
-//        image = UIImageView()
-//        image.image = Icon.internet_24
-//        image.tintColor = .white
-//        image.contentMode = .scaleAspectFit
-//        infoBar.addSubview(image)
 
         webView = WKWebView()
         webView.scrollView.bounces = false

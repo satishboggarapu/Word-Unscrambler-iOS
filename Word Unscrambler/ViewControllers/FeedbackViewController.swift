@@ -14,11 +14,13 @@ class FeedbackViewController: UIViewController {
 
     // MARK: Attributes
     private var defaultViewOriginPoint: CGPoint = CGPoint.zero
+    private var constraints: Constraints!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .white
+        constraints = Constraints.getInstance()
 
         setupNavigationBar()
         setupView()
@@ -149,7 +151,7 @@ extension FeedbackViewController {
         // Title
         let titleLabel = UILabel()
         titleLabel.text = "Feedback"
-        titleLabel.font = Font.AlegreyaSans.bold(with: 32)
+        titleLabel.font = Font.AlegreyaSans.bold(with: constraints.navigationBarTitleFontSize)
         titleLabel.textColor = .white
         titleLabel.textAlignment = .center
         navigationItem.titleView = titleLabel
@@ -167,14 +169,14 @@ extension FeedbackViewController {
         nameLabel.text = "Name"
         nameLabel.textColor = .app
         nameLabel.textAlignment = .left
-        nameLabel.font = Font.AlegreyaSans.bold(with: 24)
+        nameLabel.font = Font.AlegreyaSans.bold(with: constraints.feedbackVCTextFontSize)
         view.addSubview(nameLabel)
 
         nameTextField = TextField()
         nameTextField.delegate = self
         nameTextField.placeholder = "Enter you name"
         nameTextField.textColor = .app
-        nameTextField.font = Font.AlegreyaSans.medium(with: 24)
+        nameTextField.font = Font.AlegreyaSans.medium(with: constraints.feedbackVCTextFontSize)
         nameTextField.tintColor = .app
         nameTextField.returnKeyType = .next
         nameTextField.layer.borderWidth = 1.0
@@ -186,14 +188,14 @@ extension FeedbackViewController {
         emailLabel.text = "Email (optional)"
         emailLabel.textColor = .app
         emailLabel.textAlignment = .left
-        emailLabel.font = Font.AlegreyaSans.bold(with: 24)
+        emailLabel.font = Font.AlegreyaSans.bold(with: constraints.feedbackVCTextFontSize)
         view.addSubview(emailLabel)
 
         emailTextField = TextField()
         emailTextField.delegate = self
         emailTextField.placeholder = "Enter your email"
         emailTextField.textColor = .app
-        emailTextField.font = Font.AlegreyaSans.medium(with: 24)
+        emailTextField.font = Font.AlegreyaSans.medium(with: constraints.feedbackVCTextFontSize)
         emailTextField.tintColor = .app
         emailTextField.returnKeyType = .next
         emailTextField.layer.borderWidth = 1.0
@@ -205,13 +207,13 @@ extension FeedbackViewController {
         messageLabel.text = "Message"
         messageLabel.textColor = .app
         messageLabel.textAlignment = .left
-        messageLabel.font = Font.AlegreyaSans.bold(with: 24)
+        messageLabel.font = Font.AlegreyaSans.bold(with: constraints.feedbackVCTextFontSize)
         view.addSubview(messageLabel)
 
         messageTextView = UITextView()
         messageTextView.delegate = self
         messageTextView.textColor = .app
-        messageTextView.font = Font.AlegreyaSans.medium(with: 24)
+        messageTextView.font = Font.AlegreyaSans.medium(with: constraints.feedbackVCTextFontSize)
         messageTextView.tintColor = .app
         messageTextView.layer.borderWidth = 1.0
         messageTextView.layer.borderColor = UIColor.app.cgColor
