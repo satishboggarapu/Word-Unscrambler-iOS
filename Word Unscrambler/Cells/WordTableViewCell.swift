@@ -54,7 +54,7 @@ class WordTableViewCell: UITableViewCell {
 
     override func setupView() {
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
-        nameLabel.font = Font.AlegreyaSans.medium(with: 16)
+        nameLabel.font = Font.AlegreyaSans.medium(with: 20)
         nameLabel.textColor = .app
         nameLabel.textAlignment = .center
         contentView.addSubview(nameLabel)

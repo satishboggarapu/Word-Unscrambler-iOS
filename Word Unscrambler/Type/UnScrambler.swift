@@ -115,7 +115,7 @@ public class UnScrambler {
                 scrambledWords.append(TableViewSection(headerName: getFancySectionName(i), wordLength: i, words: words))
             }
         }
-        return scrambledWords
+        return scrambledWords.reversed()
     }
     
     public func doesDefinitionExistsForWord(_ word: String) -> Bool {
