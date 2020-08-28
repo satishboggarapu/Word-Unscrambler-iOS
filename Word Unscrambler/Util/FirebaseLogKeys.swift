@@ -12,4 +12,5 @@ public class LogKey {
     public static let DEFINITION_BUTTON_CLICK = "definition_click"
     public static let FIREBASE_FETCH_SUCCESS = "definition_fetch_success"
     public static let FIREBASE_FETCH_FAILED = "definition_fetch_failed"
+    public static let REQUESTED_APP_REVIEW = "requested_app_review"
 }

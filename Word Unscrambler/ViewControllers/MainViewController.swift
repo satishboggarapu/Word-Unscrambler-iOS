@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
     private var unscrambler: UnScrambler!
     private var staredWordsController: StaredWordsController!
     private var constraints: Constraints!
+    private var storeReviewManager: StoreReviewManager!
     private var data: [TableViewSection] = [TableViewSection]()
     private let rowHeight: CGFloat = 40.0
     private let headerHeight: CGFloat = 44.0
@@ -39,6 +40,7 @@ class MainViewController: UIViewController {
         staredWordsController = StaredWordsController.getInstance()
         firebaseEvents = FirebaseEvents()
         constraints = Constraints.getInstance()
+        storeReviewManager = StoreReviewManager()
 
         setupView()
         setupNavigationBar()
@@ -56,7 +58,7 @@ class MainViewController: UIViewController {
     }
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
+        .lightContent
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -106,6 +108,7 @@ class MainViewController: UIViewController {
         toggleNoResultsLabel()
         resultsLabel.text = getInfoLabel(textField.text!)
         firebaseEvents.logUnscramble()
+        storeReviewManager.askForReview(navigationController)
     }
 
     /**
@@ -406,7 +409,7 @@ extension MainViewController {
 
         adBannerView.snp.makeConstraints { maker in
             maker.left.right.bottom.equalToSuperview()
-            maker.height.equalTo(constraints.bannerAdHeight)
+            maker.height.equalTo(0)
         }
 
         tableView.snp.makeConstraints { maker in

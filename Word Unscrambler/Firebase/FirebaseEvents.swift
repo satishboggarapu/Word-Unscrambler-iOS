@@ -3,9 +3,7 @@ import FirebaseAnalytics
 
 public class FirebaseEvents {
 
-    init() {
-
-    }
+    init() { }
 
     // ADS
     public func logAdLoaded() {
@@ -23,6 +21,9 @@ public class FirebaseEvents {
     // Unscramble
     public func logUnscramble() {
         Analytics.logEvent(LogKey.UNSCRAMBLE, parameters: nil)
+        let defaults = UserDefaults.standard
+        let currentCount = defaults.integer(forKey: UserDefaultsKeys.unscrambleWord.rawValue)
+        defaults.set(currentCount+1, forKey: UserDefaultsKeys.unscrambleWord.rawValue)
     }
 
     // Words
@@ -49,5 +50,10 @@ public class FirebaseEvents {
 
     public func logFailedFirebaseFetch() {
         Analytics.logEvent(LogKey.FIREBASE_FETCH_FAILED, parameters: nil)
+    }
+
+    // Reviews
+    public func logRequestedForAppReview() {
+        Analytics.logEvent(LogKey.REQUESTED_APP_REVIEW, parameters: nil)
     }
 }
