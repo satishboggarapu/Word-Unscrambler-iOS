@@ -25,7 +25,7 @@ class MainViewController: UIViewController {
     private var constraints: Constraints!
     private var storeReviewManager: StoreReviewManager!
     private var data: [TableViewSection] = [TableViewSection]()
-    private let rowHeight: CGFloat = 40.0
+    private let rowHeight: CGFloat = 44.0
     private let headerHeight: CGFloat = 44.0
 
 

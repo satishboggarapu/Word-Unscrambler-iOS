@@ -40,6 +40,10 @@ public enum Device {
         }
     }
 
+    static var isDeviceIPad: Bool {
+        return UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad
+    }
+
     static var hasNotch: Bool {
         switch type {
         case .iPhoneX, .iPhoneXR, iPhoneXSMax:

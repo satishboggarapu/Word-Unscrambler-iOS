@@ -5,57 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6441f43b-4b4b-412a-a7e7-0e0de73d2ba1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-20@2x-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-29@2x-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-40@2x-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-60@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-76@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-83.5@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Word-Unscrambler-iOS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Word-Unscrambler-iOS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/GoogleToolboxForMac.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/GoogleToolboxForMac.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word Unscrambler.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word Unscrambler.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word UnscramblerTests.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word UnscramblerTests.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word UnscramblerUITests.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word UnscramblerUITests.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/nanopb.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/nanopb.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler.xcodeproj/xcuserdata/SatishBoggarapu.xcuserdatad/xcschemes/Word Unscrambler.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler.xcodeproj/xcuserdata/SatishBoggarapu.xcuserdatad/xcschemes/Word Unscrambler.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler.xcworkspace/xcuserdata/satishboggarapu.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler.xcworkspace/xcuserdata/satishboggarapu.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler-20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-20@2x-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-20@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-20@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-29@2x-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-29@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-29@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-40@2x-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-40@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-40@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-60@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-60@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-76@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Assets.xcassets/AppIcon.appiconset/word_unscrambler_app_icon_1024-83.5@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Firebase/FirebaseEvents.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Firebase/FirebaseEvents.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Util/FirebaseLogKeys.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Util/FirebaseLogKeys.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Util/Device.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Util/Device.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Util/Font.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Util/Font.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Word Unscrambler/ViewControllers/MainViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/ViewControllers/MainViewController.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6A483559-FC35-4A80-B8BC-F8B64239B141" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_4F1344BC-0BCF-4176-83B9-7B91C5D44D1E" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -73,12 +25,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="39" />
-    <option name="width" value="2560" />
-    <option name="height" value="1057" />
-  </component>
   <component name="ProjectId" id="1gf91RyZLvBDDTbEQAvtIFgU1Fn" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -149,35 +95,45 @@
       <workItem from="1556022628253" duration="36000" />
       <workItem from="1556071164588" duration="1456000" />
       <workItem from="1598494575785" duration="910000" />
-      <workItem from="1598573883892" duration="3881000" />
+      <workItem from="1598573883892" duration="4683000" />
+      <workItem from="1598615863968" duration="2757000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="251" key="GridCell.Tab.0.bottom" timestamp="1598580246454">
+    <state x="3600" y="23" width="1920" height="1057" key="CommitChangelistDialog2" timestamp="1598581367799">
       <screen x="3600" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="251" key="GridCell.Tab.0.bottom/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598580246454" />
-    <state width="1878" height="251" key="GridCell.Tab.0.center" timestamp="1598580246453">
-      <screen x="3600" y="23" width="1920" height="1057" />
+    <state x="3600" y="23" width="1920" height="1057" key="CommitChangelistDialog2/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598581367799" />
+    <state width="1836" height="285" key="GridCell.Tab.0.bottom" timestamp="1598620947334">
+      <screen x="42" y="23" width="1878" height="1177" />
     </state>
-    <state width="1878" height="251" key="GridCell.Tab.0.center/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598580246453" />
-    <state width="1878" height="251" key="GridCell.Tab.0.left" timestamp="1598580246452">
-      <screen x="3600" y="23" width="1920" height="1057" />
+    <state width="1878" height="251" key="GridCell.Tab.0.bottom/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598583209689" />
+    <state width="1836" height="285" key="GridCell.Tab.0.bottom/42.23.1878.1177@42.23.1878.1177" timestamp="1598620947334" />
+    <state width="1836" height="285" key="GridCell.Tab.0.center" timestamp="1598620947333">
+      <screen x="42" y="23" width="1878" height="1177" />
     </state>
-    <state width="1878" height="251" key="GridCell.Tab.0.left/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598580246452" />
-    <state width="1878" height="251" key="GridCell.Tab.0.right" timestamp="1598580246454">
-      <screen x="3600" y="23" width="1920" height="1057" />
+    <state width="1878" height="251" key="GridCell.Tab.0.center/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598583209687" />
+    <state width="1836" height="285" key="GridCell.Tab.0.center/42.23.1878.1177@42.23.1878.1177" timestamp="1598620947333" />
+    <state width="1836" height="285" key="GridCell.Tab.0.left" timestamp="1598620947332">
+      <screen x="42" y="23" width="1878" height="1177" />
     </state>
-    <state width="1878" height="251" key="GridCell.Tab.0.right/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598580246454" />
+    <state width="1878" height="251" key="GridCell.Tab.0.left/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598583209686" />
+    <state width="1836" height="285" key="GridCell.Tab.0.left/42.23.1878.1177@42.23.1878.1177" timestamp="1598620947332" />
+    <state width="1836" height="285" key="GridCell.Tab.0.right" timestamp="1598620947333">
+      <screen x="42" y="23" width="1878" height="1177" />
+    </state>
+    <state width="1878" height="251" key="GridCell.Tab.0.right/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598583209688" />
+    <state width="1836" height="285" key="GridCell.Tab.0.right/42.23.1878.1177@42.23.1878.1177" timestamp="1598620947333" />
     <state x="4267" y="184" width="984" height="735" key="find.popup" timestamp="1598574096231">
       <screen x="3600" y="23" width="1920" height="1057" />
     </state>
     <state x="4267" y="184" width="984" height="735" key="find.popup/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598574096231" />
-    <state x="4225" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1598575432918">
-      <screen x="3600" y="23" width="1920" height="1057" />
+    <state x="653" y="285" width="670" height="753" key="search.everywhere.popup" timestamp="1598618571638">
+      <screen x="42" y="23" width="1878" height="1177" />
     </state>
-    <state x="4225" y="258" width="670" height="676" key="search.everywhere.popup/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598575432918" />
+    <state x="4225" y="258" width="670" height="676" key="search.everywhere.popup/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598581668958" />
+    <state x="653" y="285" width="670" height="753" key="search.everywhere.popup/42.23.1878.1177@42.23.1878.1177" timestamp="1598618571638" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
