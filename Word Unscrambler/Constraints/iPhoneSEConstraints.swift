@@ -23,9 +23,13 @@ public class iPhoneSEConstraints: Constraints {
 
     override var webDefinitionsVCTitleLabelFontSize: CGFloat { return 20 }
 
-    override var infoVCShareButtonTopMargin: CGFloat { return 44 }
+    override var infoVCTopMargin: CGFloat { return 24 }
 
-    override var infoVCButtonMargin: CGFloat { return 24 }
+    override var infoVCAppIconSize: CGFloat { return 96 }
+
+    override var infoVCShareButtonTopMargin: CGFloat { return 16 }
+
+    override var infoVCButtonMargin: CGFloat { return 16 }
 
     override var feedbackVCTextFontSize: CGFloat { return 20 }
 

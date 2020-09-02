@@ -10,5 +10,10 @@ class Default {
     public static let ADMOB_APP_ID = "ca-app-pub-6364543110450580~8410025334"
     public static let ADMOB_AD_UNIT_ID = "ca-app-pub-6364543110450580/1349792967"
 
+    // In-App-Purchases product ids
+    public static let KEYCHAIN_SERVICE_NAME = "com.satishboggarapu.WordUnscrambler.iapService"
+    public static let IAP_DISABLE_ADS_ID = "com.satishboggarapu.Word_Unscrambler.disableads"
+    public static let IAP_PRODUCT_IDS = [IAP_DISABLE_ADS_ID]
+
     public static let VERSION = "Version 3.1"
 }

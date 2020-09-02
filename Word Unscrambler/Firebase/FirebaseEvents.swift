@@ -56,4 +56,34 @@ public class FirebaseEvents {
     public func logRequestedForAppReview() {
         Analytics.logEvent(LogKey.REQUESTED_APP_REVIEW, parameters: nil)
     }
+
+    // In App Purchases
+    public func logCheckIfAdsDisabled() {
+        Analytics.logEvent(LogKey.CHECK_IF_DISABLE_ADS_IAP_PURCHASED, parameters: nil)
+    }
+
+    public func logSavePurchasedItemToKeychain(productId: String) {
+        Analytics.logEvent(LogKey.SAVE_PURCHASED_ITEM_TO_KEYCHAIN, parameters: ["productId": productId])
+    }
+
+    public func logFailedToSavePurchasedItemToKeychain(productId: String, error: Error) {
+        Analytics.logEvent(LogKey.FAILED_TO_SAVE_PURCHASED_ITEM_TO_KEYCHAIN,
+                parameters: ["productId": productId, "error": error.localizedDescription])
+    }
+
+    public func logStartPurchaseOfDisableAds() {
+        Analytics.logEvent(LogKey.START_PURCHASE_OF_DISABLE_ADS, parameters: nil)
+    }
+
+    public func logIAPDisabledOnDevice() {
+        Analytics.logEvent(LogKey.IAP_DISABLED_ON_DEVICE, parameters: nil)
+    }
+
+    public func logIAPDisableAdsProductPurchased() {
+        Analytics.logEvent(LogKey.IAP_DISABLE_ADS_PRODUCT_PURCHASED, parameters: nil)
+    }
+
+    public func logIAPDisableAdsProductPurchaseFailed() {
+        Analytics.logEvent(LogKey.IAP_DISABLE_ADS_PRODUCT_PURCHASE_FAILED, parameters: nil)
+    }
 }

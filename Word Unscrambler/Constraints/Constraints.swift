@@ -78,6 +78,16 @@ public class Constraints {
 
     // MARK: InfoViewController
 
+    /// Margin between the top and app icon
+    internal var infoVCTopMargin: CGFloat {
+        return 36
+    }
+
+    /// Size of app icon
+    internal var infoVCAppIconSize: CGFloat {
+        return 128
+    }
+
     /// Margin between version label and share button in InfoViewController
     internal var infoVCShareButtonTopMargin: CGFloat {
         return 72

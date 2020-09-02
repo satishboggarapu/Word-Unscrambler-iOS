@@ -76,6 +76,7 @@ PODS:
     - gRPC-Core (= 1.15.1)
     - gRPC-RxLibrary (= 1.15.1)
   - GTMSessionFetcher/Core (1.2.0)
+  - KeychainAccess (4.2.0)
   - leveldb-library (1.20)
   - lottie-ios (2.5.0)
   - MaterialComponents (63.0.0):
@@ -558,12 +559,13 @@ DEPENDENCIES:
   - Firebase/Database
   - Firebase/Firestore
   - Google-Mobile-Ads-SDK
+  - KeychainAccess
   - lottie-ios
   - MaterialComponents
   - SnapKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - BEMCheckBox
     - BoringSSL-GRPC
     - Firebase
@@ -591,6 +593,8 @@ SPEC REPOS:
     - nanopb
     - Protobuf
     - SnapKit
+  trunk:
+    - KeychainAccess
 
 SPEC CHECKSUMS:
   BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
@@ -609,6 +613,7 @@ SPEC CHECKSUMS:
   gRPC-ProtoRPC: 69552f09c9e8e6c253663668525b7c708814a9bd
   gRPC-RxLibrary: 67a03bd22ef654e95fd7d6e4b9c5e62420a867b8
   GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  KeychainAccess: 3f760109aa99b05d0f231e28b22642da7153e38a
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
   MaterialComponents: 4e0c0ee000e0dcbf5214b0054767ef9f8f812264
@@ -621,6 +626,6 @@ SPEC CHECKSUMS:
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
 
-PODFILE CHECKSUM: 9898cdf8282451b8059914b6ef66ab15978a6cc7
+PODFILE CHECKSUM: b49ede57fb9e4416f7ac0171d0e36ea36e3cef4e
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4

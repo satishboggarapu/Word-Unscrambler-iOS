@@ -6,6 +6,7 @@ target 'Word Unscrambler' do
   use_frameworks!
 
   # Pods for Word Unscrambler
+  pod 'KeychainAccess'
   pod 'Google-Mobile-Ads-SDK'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'

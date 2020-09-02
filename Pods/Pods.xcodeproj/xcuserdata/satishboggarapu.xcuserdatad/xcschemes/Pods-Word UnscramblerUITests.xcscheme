@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1140"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5BA549ADDF0835F8737692EBB2CB0A49"
+               BlueprintIdentifier = "2F2B7CBF0FDF14A0E00185CCB67C1487"
                BuildableName = "Pods_Word_UnscramblerUITests.framework"
                BlueprintName = "Pods-Word UnscramblerUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -40,15 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5BA549ADDF0835F8737692EBB2CB0A49"
-            BuildableName = "Pods_Word_UnscramblerUITests.framework"
-            BlueprintName = "Pods-Word UnscramblerUITests"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

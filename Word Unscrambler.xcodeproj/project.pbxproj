@@ -10,9 +10,11 @@
 		100411CC22700BDF001D8C94 /* valid_words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 100411CB22700BDF001D8C94 /* valid_words.txt */; };
 		100806B42266BF25008EA9B6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100806B32266BF25008EA9B6 /* AdSupport.framework */; };
 		105286A024EA0B7C000FFAD9 /* word_unscrambler_app_icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1052869F24EA0B7C000FFAD9 /* word_unscrambler_app_icon_1024.png */; };
+		107BB86D24FB337C00732F22 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107BB86C24FB337C00732F22 /* StoreKit.framework */; };
 		10DD002C1D8A20070076D3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DD002B1D8A20070076D3BD /* Assets.xcassets */; };
 		10DD003A1D8A20070076D3BD /* Word_UnscramblerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD00391D8A20070076D3BD /* Word_UnscramblerTests.swift */; };
 		10DD00451D8A20070076D3BD /* Word_UnscramblerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD00441D8A20070076D3BD /* Word_UnscramblerUITests.swift */; };
+		192E402D32DB2099CEC2ACFD /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E45F8E7917B27238A1F2D /* UserDefaultsKeys.swift */; };
 		192E40555EC5A42F2851F233 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E43A0C2BE7713A00B8655 /* UIViewControllerExtension.swift */; };
 		192E40BFF868AB99145AF07D /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E4F8A92AFB4E2854BF240 /* DateExtensions.swift */; };
 		192E40C3B282BCF4154EB9B8 /* FirebaseEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E4A4ACF7C9F1ED499F31C /* FirebaseEvents.swift */; };
@@ -57,11 +59,11 @@
 		192E4AAD2D474FE19767454F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E4A18AD6B2BD6177556C9 /* Image.swift */; };
 		192E4B18925542C97CEB5DD8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E4D835E278916A818DBF4 /* MainViewController.swift */; };
 		192E4B41BB561A6250BEEF2A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E41363D0C1D9F2C4E3263 /* Message.swift */; };
-		192E4BF9FA5B24019D67EF62 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E48DB965F08CD5361F239 /* UserDefaultsKeys.swift */; };
 		192E4C11EDAAACB78A304CDE /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E4BA05B2AA869C2664D5C /* UITextFieldExtension.swift */; };
 		192E4C3BF385039C64CD86E7 /* WebDefinitionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E473583715F4263539781 /* WebDefinitionCollectionViewCell.swift */; };
 		192E4C51D303AA67483EB7C4 /* AlegreyaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 192E4C48C3E57A1CA00694C7 /* AlegreyaSans-ExtraBold.ttf */; };
 		192E4CA8E44A41AF32BA81CB /* LOTAnimationViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E448B88B8F44099EC0D77 /* LOTAnimationViewExtension.swift */; };
+		192E4CBCBA3F0AF3B1677DBE /* IAPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E41C5F00EA97A6600C825 /* IAPHandler.swift */; };
 		192E4CD2104D4CD07CC1AA84 /* FirebaseLogKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E4860DEFB892293D8DFE8 /* FirebaseLogKeys.swift */; };
 		192E4D0808075595AF729419 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E47625FD846327F5913BA /* Font.swift */; };
 		192E4D2F5B2794F8A6C780A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E4F601EFFF5145723B146 /* AppDelegate.swift */; };
@@ -104,6 +106,7 @@
 		100411CB22700BDF001D8C94 /* valid_words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = valid_words.txt; sourceTree = "<group>"; };
 		100806B32266BF25008EA9B6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		1052869F24EA0B7C000FFAD9 /* word_unscrambler_app_icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_unscrambler_app_icon_1024.png; sourceTree = "<group>"; };
+		107BB86C24FB337C00732F22 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		10DD001E1D8A20070076D3BD /* Word Unscrambler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Unscrambler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DD002B1D8A20070076D3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10DD00351D8A20070076D3BD /* Word UnscramblerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word UnscramblerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +119,7 @@
 		192E40ED8E1826132167C989 /* Combinations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
 		192E4118DC8C4A2EF3073A4A /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		192E41363D0C1D9F2C4E3263 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		192E41C5F00EA97A6600C825 /* IAPHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHandler.swift; sourceTree = "<group>"; };
 		192E42AE158D4AFB95450D85 /* iPhoneSEConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPhoneSEConstraints.swift; sourceTree = "<group>"; };
 		192E42B1873990B03909B2D6 /* AlegreyaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "AlegreyaSans-Medium.ttf"; sourceTree = "<group>"; };
 		192E42E9051061B2CBF8C5FF /* WebDefinitionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebDefinitionsViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +138,7 @@
 		192E45300D3668AAD0815BD4 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 		192E45551F2A85F8D4058B7A /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		192E45A737DF5C57DB5CEE51 /* FavoriteWordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteWordsViewController.swift; sourceTree = "<group>"; };
+		192E45F8E7917B27238A1F2D /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		192E4618C011AD7DB651C51D /* AlegreyaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file.ttf; path = "AlegreyaSans-Bold.ttf"; sourceTree = "<group>"; };
 		192E46780500D7E46C9BC4C9 /* StaredWordsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaredWordsController.swift; sourceTree = "<group>"; };
 		192E46F4F494B9F3046718FF /* SnappingCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnappingCollectionViewLayout.swift; sourceTree = "<group>"; };
@@ -145,7 +150,6 @@
 		192E4860DEFB892293D8DFE8 /* FirebaseLogKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseLogKeys.swift; sourceTree = "<group>"; };
 		192E486ED2019AE6BD720B86 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		192E487CC35795CFED381B36 /* UnScrambler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnScrambler.swift; sourceTree = "<group>"; };
-		192E48DB965F08CD5361F239 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		192E49056F848F67B81FF008 /* FirebaseReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
 		192E49C496468FF8F88E72E6 /* FirebasePush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebasePush.swift; sourceTree = "<group>"; };
 		192E4A18AD6B2BD6177556C9 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -194,6 +198,7 @@
 			files = (
 				100806B42266BF25008EA9B6 /* AdSupport.framework in Frameworks */,
 				BCDFCD701FCD4AE6E1E1070A /* Pods_Word_Unscrambler.framework in Frameworks */,
+				107BB86D24FB337C00732F22 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +263,7 @@
 				192E474FA5F78CACFD34BC63 /* GoogleService-Info.plist */,
 				192E4EDD0822FBAE2590E38A /* Constraints */,
 				192E4BED4E5902125C6781D8 /* Reviews */,
-				192E4807DC85E436E3B02934 /* Constants */,
+				192E475776ABCB907C29FA0A /* InAppPurchases */,
 			);
 			path = "Word Unscrambler";
 			sourceTree = "<group>";
@@ -347,6 +352,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		192E475776ABCB907C29FA0A /* InAppPurchases */ = {
+			isa = PBXGroup;
+			children = (
+				192E41C5F00EA97A6600C825 /* IAPHandler.swift */,
+			);
+			path = InAppPurchases;
+			sourceTree = "<group>";
+		};
 		192E47E0BE861379A60042E7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,14 +367,6 @@
 				192E46F4F494B9F3046718FF /* SnappingCollectionViewLayout.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		192E4807DC85E436E3B02934 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				192E48DB965F08CD5361F239 /* UserDefaultsKeys.swift */,
-			);
-			path = Constants;
 			sourceTree = "<group>";
 		};
 		192E4870E6CE39E66AC8F1AE /* Cells */ = {
@@ -389,6 +394,7 @@
 				192E40ED8E1826132167C989 /* Combinations.swift */,
 				192E4860DEFB892293D8DFE8 /* FirebaseLogKeys.swift */,
 				192E4A18AD6B2BD6177556C9 /* Image.swift */,
+				192E45F8E7917B27238A1F2D /* UserDefaultsKeys.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -454,6 +460,7 @@
 		3C3CD7F1861EA447717828C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				107BB86C24FB337C00732F22 /* StoreKit.framework */,
 				100806B32266BF25008EA9B6 /* AdSupport.framework */,
 				ACE16E75A5D661CB5317EB54 /* Pods_Word_Unscrambler.framework */,
 				E72DD8FC65ADB0ACC9EA275B /* Pods_Word_UnscramblerTests.framework */,
@@ -494,7 +501,7 @@
 			);
 			name = "Word Unscrambler";
 			packageProductDependencies = (
-				10E29CA924E8C06500C85D8E,
+				10E29CA924E8C06500C85D8E /* SwiftPackageProductDependency */,
 			);
 			productName = "Word Unscrambler";
 			productReference = 10DD001E1D8A20070076D3BD /* Word Unscrambler.app */;
@@ -550,9 +557,7 @@
 				TargetAttributes = {
 					10DD001D1D8A20070076D3BD = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = TEGLEE3UYA;
 						LastSwiftMigration = 0920;
-						ProvisioningStyle = Automatic;
 					};
 					10DD00341D8A20070076D3BD = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -579,7 +584,7 @@
 			);
 			mainGroup = 10DD00151D8A20070076D3BD;
 			packageReferences = (
-				10E29CA824E8C06500C85D8E,
+				10E29CA824E8C06500C85D8E /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 10DD001F1D8A20070076D3BD /* Products */;
 			projectDirPath = "";
@@ -692,53 +697,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework",
-				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
-				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
-				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
-				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
-				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
-				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BEMCheckBox.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -797,8 +765,9 @@
 				192E44DA7FA597EE4606A074 /* iPhoneXRConstraints.swift in Sources */,
 				192E429B466BC6D4E8E3EF24 /* iPhoneXSMaxConstraints.swift in Sources */,
 				192E4119DBAAD14E82E870DA /* StoreReviewManager.swift in Sources */,
-				192E4BF9FA5B24019D67EF62 /* UserDefaultsKeys.swift in Sources */,
 				192E40BFF868AB99145AF07D /* DateExtensions.swift in Sources */,
+				192E4CBCBA3F0AF3B1677DBE /* IAPHandler.swift in Sources */,
+				192E402D32DB2099CEC2ACFD /* UserDefaultsKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,7 +925,7 @@
 			baseConfigurationReference = 6DB28EE393E853AA144B2A6A /* Pods-Word Unscrambler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = TEGLEE3UYA;
@@ -982,7 +951,7 @@
 			baseConfigurationReference = 7AAEC2551AF72120C378539A /* Pods-Word Unscrambler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
@@ -1122,7 +1091,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		10E29CA824E8C06500C85D8E = {
+		10E29CA824E8C06500C85D8E /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
 			requirement = {
@@ -1133,9 +1102,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		10E29CA924E8C06500C85D8E = {
+		10E29CA924E8C06500C85D8E /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 10E29CA824E8C06500C85D8E;
+			package = 10E29CA824E8C06500C85D8E /* RemoteSwiftPackageReference */;
 			productName = FacebookCore;
 		};
 /* End XCSwiftPackageProductDependency section */

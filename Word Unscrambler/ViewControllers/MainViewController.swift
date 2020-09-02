@@ -41,6 +41,9 @@ class MainViewController: UIViewController {
         firebaseEvents = FirebaseEvents()
         constraints = Constraints.getInstance()
         storeReviewManager = StoreReviewManager()
+        IAPHandler.instance.fetchAvailableProducts { products in
+            IAPHandler.instance.setProducts(products: products)
+        }
 
         setupView()
         setupNavigationBar()

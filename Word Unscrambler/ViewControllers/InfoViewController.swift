@@ -11,6 +11,7 @@ class InfoViewController: UIViewController {
     private var shareButton: UIButton!
     private var rateButton: UIButton!
     private var feedbackButton: UIButton!
+    private var disableAdsButton: UIButton!
 
     // MARK: Attributes
     private var constraints: Constraints!
@@ -24,7 +25,7 @@ class InfoViewController: UIViewController {
         setupNavigationBar()
         setupView()
         addConstraints()
-
+        refreshDisableAdsButton()
     }
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -50,6 +51,28 @@ class InfoViewController: UIViewController {
 
     @objc private func feedbackButtonAction() {
         navigationController?.pushViewController(FeedbackViewController(), animated: true)
+    }
+
+    @objc private func disableAdsButtonAction() {
+        guard let product = IAPHandler.instance.getDisableAdsProduct() else { return }
+        IAPHandler.instance.purchase(product: product) { alertType, product, transaction in
+            if let transaction = transaction, let product = product {
+                print(transaction.transactionState, product)
+            } else {
+                print("failed to purchase")
+            }
+            self.refreshDisableAdsButton()
+        }
+    }
+
+    private func refreshDisableAdsButton() {
+        if IAPHandler.instance.isProductPurchased(Default.IAP_DISABLE_ADS_ID) {
+            disableAdsButton.isHidden = true
+
+            shareButton.snp.makeConstraints { (maker: ConstraintMaker) -> () in
+                maker.top.equalTo(versionLabel.snp.bottom).offset(constraints.infoVCShareButtonTopMargin)
+            }
+        }
     }
 }
 
@@ -129,14 +152,22 @@ extension InfoViewController {
         feedbackButton.addTarget(self, action: #selector(feedbackButtonAction), for: .touchUpInside)
         view.addSubview(feedbackButton)
 
+        disableAdsButton = UIButton()
+        disableAdsButton.backgroundColor = .app
+        disableAdsButton.setTitle("Disable Ads", for: .normal)
+        disableAdsButton.setTitleColor(.white, for: .normal)
+        disableAdsButton.titleLabel?.font = Font.AlegreyaSans.medium(with: 24)
+        disableAdsButton.addShadow(cornerRadius: 4)
+        disableAdsButton.addTarget(self, action: #selector(disableAdsButtonAction), for: .touchUpInside)
+        view.addSubview(disableAdsButton)
     }
 
     override func addConstraints() {
 
         appIconImageView.snp.makeConstraints { maker in
             maker.centerX.equalToSuperview()
-            maker.top.equalToSuperview().offset(36)
-            maker.size.equalTo(128)
+            maker.top.equalToSuperview().offset(constraints.infoVCTopMargin)
+            maker.size.equalTo(constraints.infoVCAppIconSize)
         }
 
         titleLabel.snp.makeConstraints { maker in
@@ -151,10 +182,18 @@ extension InfoViewController {
             maker.height.equalTo(versionLabel.intrinsicContentSize.height)
         }
 
-        shareButton.snp.makeConstraints { maker in
+        disableAdsButton.snp.makeConstraints { (maker: ConstraintMaker) -> () in
             maker.left.equalToSuperview().offset(36)
             maker.right.equalToSuperview().inset(36)
             maker.top.equalTo(versionLabel.snp.bottom).offset(constraints.infoVCShareButtonTopMargin)
+            maker.height.equalTo(48)
+            print(constraints.infoVCShareButtonTopMargin)
+        }
+
+        shareButton.snp.makeConstraints { maker in
+            maker.left.equalToSuperview().offset(36)
+            maker.right.equalToSuperview().inset(36)
+            maker.top.equalTo(disableAdsButton.snp.bottom).offset(constraints.infoVCButtonMargin)
             maker.height.equalTo(48)
         }
 
