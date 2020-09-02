@@ -74,6 +74,14 @@ class MainViewController: UIViewController {
         if tableView != nil {
             tableView.reloadData()
         }
+
+        if IAPHandler.instance.isProductPurchased(Default.IAP_DISABLE_ADS_ID) {
+            adBannerView.isAutoloadEnabled = false
+            adBannerView.removeFromSuperview()
+            tableView.snp.makeConstraints { (maker: ConstraintMaker) -> () in
+                maker.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
+            }
+        }
     }
 
     /**

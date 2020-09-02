@@ -24,55 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6441f43b-4b4b-412a-a7e7-0e0de73d2ba1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/GoogleToolboxForMac.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/GoogleToolboxForMac.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word Unscrambler.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word Unscrambler.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word UnscramblerTests.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word UnscramblerTests.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word UnscramblerUITests.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/Pods-Word UnscramblerUITests.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/nanopb.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/nanopb.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/satishboggarapu.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/BEMCheckBox/BEMCheckBox.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/BEMCheckBox/BEMCheckBox.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/BoringSSL-GRPC/BoringSSL-GRPC.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/BoringSSL-GRPC/BoringSSL-GRPC.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MDFInternationalization/MDFInternationalization.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MDFInternationalization/MDFInternationalization.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MDFTextAccessibility/MDFTextAccessibility.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MDFTextAccessibility/MDFTextAccessibility.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MaterialComponents/MaterialComponents.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MaterialComponents/MaterialComponents.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MotionAnimator/MotionAnimator.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MotionAnimator/MotionAnimator.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MotionInterchange/MotionInterchange.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MotionInterchange/MotionInterchange.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MotionTransitioning/MotionTransitioning.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MotionTransitioning/MotionTransitioning.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler-acknowledgements.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler-acknowledgements.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler-frameworks.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word Unscrambler/Pods-Word Unscrambler.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word UnscramblerTests/Pods-Word UnscramblerTests.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word UnscramblerTests/Pods-Word UnscramblerTests.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word UnscramblerTests/Pods-Word UnscramblerTests.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word UnscramblerTests/Pods-Word UnscramblerTests.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word UnscramblerUITests/Pods-Word UnscramblerUITests.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word UnscramblerUITests/Pods-Word UnscramblerUITests.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word UnscramblerUITests/Pods-Word UnscramblerUITests.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Word UnscramblerUITests/Pods-Word UnscramblerUITests.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Protobuf/Protobuf.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Protobuf/Protobuf.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SnapKit/SnapKit.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SnapKit/SnapKit.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/gRPC-Core/gRPC-Core.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/gRPC-Core/gRPC-Core.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/gRPC-ProtoRPC/gRPC-ProtoRPC.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/gRPC-ProtoRPC/gRPC-ProtoRPC.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/gRPC-RxLibrary/gRPC-RxLibrary.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/gRPC-RxLibrary/gRPC-RxLibrary.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/gRPC/gRPC-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/gRPC/gRPC-umbrella.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/gRPC/gRPC.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/gRPC/gRPC.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/leveldb-library/leveldb-library.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/leveldb-library/leveldb-library.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/lottie-ios/lottie-ios.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/lottie-ios/lottie-ios.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/nanopb/nanopb.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/nanopb/nanopb.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler.xcworkspace/xcuserdata/satishboggarapu.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler.xcworkspace/xcuserdata/satishboggarapu.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Constants/UserDefaultsKeys.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Util/UserDefaultsKeys.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Constraints/Constraints.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Constraints/Constraints.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Constraints/iPhoneSEConstraints.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Constraints/iPhoneSEConstraints.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Firebase/FirebaseEvents.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Firebase/FirebaseEvents.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Util/Default.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Util/Default.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/Util/FirebaseLogKeys.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/Util/FirebaseLogKeys.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word Unscrambler/ViewControllers/InfoViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/ViewControllers/InfoViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Word Unscrambler/ViewControllers/MainViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Word Unscrambler/ViewControllers/MainViewController.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +31,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_b46fcacc32935373140fdee3ad940153c5887f82" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -167,7 +118,7 @@
       <workItem from="1598788182809" duration="8969000" />
       <workItem from="1598882958452" duration="2480000" />
       <workItem from="1598921329361" duration="3583000" />
-      <workItem from="1598962149581" duration="2669000" />
+      <workItem from="1598962149581" duration="3794000" />
     </task>
     <servers />
   </component>
@@ -196,24 +147,28 @@
       <screen x="3600" y="23" width="1920" height="1057" />
     </state>
     <state x="3600" y="23" width="1920" height="1057" key="CommitChangelistDialog2/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598581367799" />
-    <state width="1878" height="135" key="GridCell.Tab.0.bottom" timestamp="1598926882033">
+    <state width="1878" height="135" key="GridCell.Tab.0.bottom" timestamp="1599007961984">
       <screen x="3600" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="135" key="GridCell.Tab.0.bottom/3600.23.1920.1057/1920.23.1680.1027/42.23.1878.1057@3600.23.1920.1057" timestamp="1599007961984" />
     <state width="1878" height="135" key="GridCell.Tab.0.bottom/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598926882033" />
     <state width="1836" height="285" key="GridCell.Tab.0.bottom/42.23.1878.1177@42.23.1878.1177" timestamp="1598620947334" />
-    <state width="1878" height="135" key="GridCell.Tab.0.center" timestamp="1598926882032">
+    <state width="1878" height="135" key="GridCell.Tab.0.center" timestamp="1599007961982">
       <screen x="3600" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="135" key="GridCell.Tab.0.center/3600.23.1920.1057/1920.23.1680.1027/42.23.1878.1057@3600.23.1920.1057" timestamp="1599007961982" />
     <state width="1878" height="135" key="GridCell.Tab.0.center/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598926882032" />
     <state width="1836" height="285" key="GridCell.Tab.0.center/42.23.1878.1177@42.23.1878.1177" timestamp="1598620947333" />
-    <state width="1878" height="135" key="GridCell.Tab.0.left" timestamp="1598926882031">
+    <state width="1878" height="135" key="GridCell.Tab.0.left" timestamp="1599007961979">
       <screen x="3600" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="135" key="GridCell.Tab.0.left/3600.23.1920.1057/1920.23.1680.1027/42.23.1878.1057@3600.23.1920.1057" timestamp="1599007961979" />
     <state width="1878" height="135" key="GridCell.Tab.0.left/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598926882031" />
     <state width="1836" height="285" key="GridCell.Tab.0.left/42.23.1878.1177@42.23.1878.1177" timestamp="1598620947332" />
-    <state width="1878" height="135" key="GridCell.Tab.0.right" timestamp="1598926882033">
+    <state width="1878" height="135" key="GridCell.Tab.0.right" timestamp="1599007961984">
       <screen x="3600" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="135" key="GridCell.Tab.0.right/3600.23.1920.1057/1920.23.1680.1027/42.23.1878.1057@3600.23.1920.1057" timestamp="1599007961984" />
     <state width="1878" height="135" key="GridCell.Tab.0.right/42.23.1878.1057/1920.23.1680.1027/3600.23.1920.1057@3600.23.1920.1057" timestamp="1598926882033" />
     <state width="1836" height="285" key="GridCell.Tab.0.right/42.23.1878.1177@42.23.1878.1177" timestamp="1598620947333" />
     <state width="1878" height="135" key="GridCell.Tab.1.bottom" timestamp="1598926882035">
