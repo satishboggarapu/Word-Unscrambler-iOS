@@ -15,5 +15,5 @@ class Default {
     public static let IAP_DISABLE_ADS_ID = "com.satishboggarapu.Word_Unscrambler.disableads"
     public static let IAP_PRODUCT_IDS = [IAP_DISABLE_ADS_ID]
 
-    public static let VERSION = "Version 3.1"
+    public static let VERSION = "Version 3.2"
 }

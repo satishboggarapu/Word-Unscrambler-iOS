@@ -88,7 +88,7 @@ class IAPHandler: NSObject {
         }
     }
 
-    public func isProductPurchased(_ productIdentifier: String) -> Bool {
+    public func isProductPurchased(_ productIdentifier: String = Default.IAP_DISABLE_ADS_ID) -> Bool {
         firebaseEvents.logCheckIfAdsDisabled()
         let keychain = Keychain(service: Default.KEYCHAIN_SERVICE_NAME)
         if let hasPurchased = try? keychain.get(productIdentifier) {

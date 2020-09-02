@@ -420,7 +420,7 @@ extension MainViewController {
 
         adBannerView.snp.makeConstraints { maker in
             maker.left.right.bottom.equalToSuperview()
-            maker.height.equalTo(0)
+            maker.height.equalTo(constraints.bannerAdHeight)
         }
 
         tableView.snp.makeConstraints { maker in

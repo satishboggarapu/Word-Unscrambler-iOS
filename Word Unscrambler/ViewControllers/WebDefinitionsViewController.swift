@@ -23,8 +23,10 @@ class WebDefinitionsViewController: UIViewController {
 
         for i in stride(from: 0, to: WebDefinitions.values.count, by: 1) {
             elements.append(WebDefinitions.values[i])
-            if (i != 0) && (i % 2 == 1) {
-                elements.append(nil)
+            if !IAPHandler.instance.isProductPurchased() {
+                if (i != 0) && (i % 2 == 1) {
+                    elements.append(nil)
+                }
             }
         }
 
