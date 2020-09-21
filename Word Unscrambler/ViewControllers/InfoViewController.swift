@@ -37,7 +37,7 @@ class InfoViewController: UIViewController {
     }
 
     @objc private func shareButtonAction() {
-        let message = "Checkout Word Unscrambler!! It helps you unscramble any scrambled english word. https://itunes.apple.com/us/app/word-unscrambler/id1166397295"
+        let message = "Checkout Word Unscrambler!! It helps you unscramble any scrambled english word. https://itunes.apple.com/us/app/id1166397295"
         let activityViewController = UIActivityViewController(activityItems: [message], applicationActivities: nil)
         self.present(activityViewController, animated: true)
     }
@@ -45,7 +45,7 @@ class InfoViewController: UIViewController {
     @objc private func rateButtonAction() {
         let url = URL(string: "itms-apps://itunes.apple.com/app/id1166397295")!
         if UIApplication.shared.canOpenURL(url) {
-            UIApplication.shared.openURL(url)
+            UIApplication.shared.open(url)
         }
     }
 

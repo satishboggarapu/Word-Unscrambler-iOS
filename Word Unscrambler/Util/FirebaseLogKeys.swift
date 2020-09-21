@@ -29,4 +29,5 @@ public class LogKey {
     public static let IAP_DISABLED_ON_DEVICE = "iap_disabled_on_device"
     public static let IAP_DISABLE_ADS_PRODUCT_PURCHASED = "iap_disable_ads_product_purchased"
     public static let IAP_DISABLE_ADS_PRODUCT_PURCHASE_FAILED = "iap_disable_ads_product_purchase_failed"
+    public static let HIDDING_ADS_IN_APP = "hidding_ads_in_app"
 }

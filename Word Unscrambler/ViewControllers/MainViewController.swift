@@ -76,6 +76,7 @@ class MainViewController: UIViewController {
         }
 
         if IAPHandler.instance.isProductPurchased(Default.IAP_DISABLE_ADS_ID) {
+            firebaseEvents.logHiddingAdsInApp()
             adBannerView.isAutoloadEnabled = false
             adBannerView.removeFromSuperview()
             tableView.snp.makeConstraints { (maker: ConstraintMaker) -> () in

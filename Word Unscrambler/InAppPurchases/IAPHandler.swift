@@ -91,7 +91,7 @@ class IAPHandler: NSObject {
     public func isProductPurchased(_ productIdentifier: String = Default.IAP_DISABLE_ADS_ID) -> Bool {
         firebaseEvents.logCheckIfAdsDisabled()
         let keychain = Keychain(service: Default.KEYCHAIN_SERVICE_NAME)
-        if let hasPurchased = try? keychain.get(productIdentifier) {
+        if let hasPurchased = try? keychain.get(productIdentifier), hasPurchased != nil {
             return true
         } else {
             return false
@@ -137,21 +137,21 @@ extension IAPHandler: SKProductsRequestDelegate, SKPaymentTransactionObserver {
                 switch trans.transactionState {
                 case .purchased:
                     print("Product purchase done")
-                    SKPaymentQueue.default().finishTransaction(transaction as! SKPaymentTransaction)
+                    SKPaymentQueue.default().finishTransaction(trans)
                     if let completion = self.purchaseProductCompletion {
                         completion(.purchased, self.productToPurchase, trans)
                     }
-                    savePurchasedItemToKeychain(identifier: transaction.productIdentifier)
+                    savePurchasedItemToKeychain(identifier: trans.payment.productIdentifier)
                     firebaseEvents.logIAPDisableAdsProductPurchased()
                     break
                 case .failed:
                     print("Product purchase failed")
-                    SKPaymentQueue.default().finishTransaction(transaction as! SKPaymentTransaction)
+                    SKPaymentQueue.default().finishTransaction(trans)
                     firebaseEvents.logIAPDisableAdsProductPurchaseFailed()
                     break
                 case .restored:
                     print("Product restored")
-                    SKPaymentQueue.default().finishTransaction(transaction as! SKPaymentTransaction)
+                    SKPaymentQueue.default().finishTransaction(trans)
                     break
                 default:
                     break

@@ -86,4 +86,8 @@ public class FirebaseEvents {
     public func logIAPDisableAdsProductPurchaseFailed() {
         Analytics.logEvent(LogKey.IAP_DISABLE_ADS_PRODUCT_PURCHASE_FAILED, parameters: nil)
     }
+    
+    public func logHiddingAdsInApp() {
+        Analytics.logEvent(LogKey.HIDDING_ADS_IN_APP, parameters: nil)
+    }
 }

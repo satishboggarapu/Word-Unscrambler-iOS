@@ -10,6 +10,7 @@
 		100411CC22700BDF001D8C94 /* valid_words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 100411CB22700BDF001D8C94 /* valid_words.txt */; };
 		100806B42266BF25008EA9B6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100806B32266BF25008EA9B6 /* AdSupport.framework */; };
 		105286A024EA0B7C000FFAD9 /* word_unscrambler_app_icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1052869F24EA0B7C000FFAD9 /* word_unscrambler_app_icon_1024.png */; };
+		1062DC8E24FF28B700F8164D /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 10E29CA924E8C06500C85D8E /* FacebookCore */; };
 		107BB86D24FB337C00732F22 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107BB86C24FB337C00732F22 /* StoreKit.framework */; };
 		10DD002C1D8A20070076D3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DD002B1D8A20070076D3BD /* Assets.xcassets */; };
 		10DD003A1D8A20070076D3BD /* Word_UnscramblerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD00391D8A20070076D3BD /* Word_UnscramblerTests.swift */; };
@@ -199,6 +200,7 @@
 				100806B42266BF25008EA9B6 /* AdSupport.framework in Frameworks */,
 				BCDFCD701FCD4AE6E1E1070A /* Pods_Word_Unscrambler.framework in Frameworks */,
 				107BB86D24FB337C00732F22 /* StoreKit.framework in Frameworks */,
+				1062DC8E24FF28B700F8164D /* FacebookCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,7 +503,7 @@
 			);
 			name = "Word Unscrambler";
 			packageProductDependencies = (
-				10E29CA924E8C06500C85D8E /* SwiftPackageProductDependency */,
+				10E29CA924E8C06500C85D8E /* FacebookCore */,
 			);
 			productName = "Word Unscrambler";
 			productReference = 10DD001E1D8A20070076D3BD /* Word Unscrambler.app */;
@@ -584,7 +586,7 @@
 			);
 			mainGroup = 10DD00151D8A20070076D3BD;
 			packageReferences = (
-				10E29CA824E8C06500C85D8E /* RemoteSwiftPackageReference */,
+				10E29CA824E8C06500C85D8E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = 10DD001F1D8A20070076D3BD /* Products */;
 			projectDirPath = "";
@@ -927,7 +929,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = TEGLEE3UYA;
 				ENABLE_NS_ASSERTIONS = YES;
 				INFOPLIST_FILE = "Word Unscrambler/Info.plist";
@@ -936,7 +938,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1;
+				MARKETING_VERSION = 3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.satishboggarapu.Word-Unscrambler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = Automatic;
@@ -954,7 +956,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = TEGLEE3UYA;
 				ENABLE_NS_ASSERTIONS = YES;
 				INFOPLIST_FILE = "Word Unscrambler/Info.plist";
@@ -963,7 +965,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1;
+				MARKETING_VERSION = 3.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.satishboggarapu.Word-Unscrambler";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = Automatic;
@@ -1091,7 +1093,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		10E29CA824E8C06500C85D8E /* RemoteSwiftPackageReference */ = {
+		10E29CA824E8C06500C85D8E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
 			requirement = {
@@ -1102,9 +1104,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		10E29CA924E8C06500C85D8E /* SwiftPackageProductDependency */ = {
+		10E29CA924E8C06500C85D8E /* FacebookCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 10E29CA824E8C06500C85D8E /* RemoteSwiftPackageReference */;
+			package = 10E29CA824E8C06500C85D8E /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
 			productName = FacebookCore;
 		};
 /* End XCSwiftPackageProductDependency section */
